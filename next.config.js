@@ -10,7 +10,7 @@ const regexEqual = (x, y) =>
 
 module.exports = {
   webpack(config) {
-    /* find all css/scss/sass rules */
+    /* find all scss/sass rules */
     const sassRules = config.module.rules
       .find((rule) => typeof rule.oneOf === "object")
       .oneOf.find(
