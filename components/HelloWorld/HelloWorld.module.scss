@@ -5,7 +5,7 @@ $color: red;
 }
 
 .image {
-  height: 600px;
-  width: 600px;
+  height: $height;
+  width: $width;
   background-image: url($image);
 }
