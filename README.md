@@ -1,31 +1,18 @@
-# Example app with next-sass
+# Example app with next-sass-additional-data
 
-This example demonstrates how to use Next.js' built-in Global Sass/Scss imports and Component-Level Sass/Scss modules support.
+This example demonstrates how to add an [additonalData](https://github.com/webpack-contrib/sass-loader#additionaldata) option to Next.js' built-in Sass/Scss support.
 
-## Deploy your own
+To run local demo:
 
-Deploy the example using [Vercel](https://vercel.com):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/vercel/next.js/tree/canary/examples/with-next-sass)
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-next-sass with-next-sass-app
-# or
-yarn create next-app --example with-next-sass with-next-sass-app
+```dosini
+cd ~/Desktop
+git clone git@github.com:mattcarlotta/with-next-sass-additional-data.git
+cd with-next-sass-additional-data
+yarn (or npm i)
 ```
 
-Run production build with:
-
-```bash
-npm run build
-npm run start
-# or
-yarn build
-yarn start
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/import?filter=next.js&utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+| `yarn <command>` | Description                                           |
+| ---------------- | ----------------------------------------------------- |
+| `build`          | Compiles `src` app to `.next/static` for production.  |
+| `dev`            | Starts development server (`localhost:3000` for app). |
+| `start`          | Starts production servers (must run `build` first).   |

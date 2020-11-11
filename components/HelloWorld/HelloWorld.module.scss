@@ -1,0 +1,11 @@
+$color: red;
+
+.hello {
+  color: $color;
+}
+
+.image {
+  height: 600px;
+  width: 600px;
+  background-image: url($image);
+}
